@@ -1,0 +1,39 @@
+body{
+    background-color:  hsl(217, 54%, 11%);
+}
+
+main{
+    background-color: hsl(216, 50%, 16%);
+}
+
+.my-border{
+    border-bottom: 2px solid hsl(215, 32%, 27%);
+}
+
+.eth{
+    color: hsl(178, 100%, 50%);
+}
+
+.tex{
+    color: hsl(215, 51%, 70%);
+}
+
+@media screen and (max-width:770px) {
+    main{
+        min-width: 368px !important;
+    }
+}
+
+@media screen and (max-width:400px) {
+    body {
+        padding: 10px 14px !important;
+    }
+
+    .me{
+        margin-left: 9px !important;
+    }
+
+    img,  h3, p{
+        margin-bottom: 19px !important;
+    }
+}
